@@ -25,6 +25,7 @@
 }
 
 h1{
+    text-align: center;
     font-family: "Barriecito", system-ui;
 }
 
@@ -116,3 +117,12 @@ h1 span{
     stroke: black;
 }
 
+@media screen and (max-width: 900px) {
+    .buttons{
+        flex-direction: column;
+    }
+    .joke-box{
+        width: 90%;
+        height: 80%;
+    }
+}

@@ -14,7 +14,6 @@ var opt = {
 
 async function getJoke(){
     jokeDiv.innerHTML = "🤣🤣🤣🤣🤣";
-    svg1.style.tranform = "rotate(45deg)";
     let fjoke = await fetch('https://api.api-ninjas.com/v1/dadjokes', opt);
     let resJoke = await fjoke.json();
     showOnUI(resJoke[0].joke);
