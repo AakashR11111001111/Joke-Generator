@@ -14,7 +14,7 @@ Check out the project live [here](https://aakashr11111001111.github.io/Joke-Gene
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/Dad-Jokes-Generator.git
+    git clone https://github.com/AakashR11111001111/Joke-Generator
     ```
 2. **Navigate to the project folder**:
     ```bash
